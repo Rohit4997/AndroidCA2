@@ -14,6 +14,7 @@ class SecondQuestion : AppCompatActivity() {
         val radioGroup= findViewById<RadioGroup>(R.id.radioGroup)
         val chbx= findViewById<CheckBox>(R.id.chbx)
 
+        // Listener on radio group to access child radio buttons
         radioGroup.setOnCheckedChangeListener { radioGroup, i ->
             val setId:Int = radioGroup.checkedRadioButtonId
             radioButton = findViewById(setId)
