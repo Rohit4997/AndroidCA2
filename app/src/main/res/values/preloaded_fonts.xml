@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/acme</item>
+        <item>@font/alice</item>
+        <item>@font/donegal_one</item>
+        <item>@font/kreon</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_thin</item>
+    </array>
+</resources>

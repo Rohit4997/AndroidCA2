@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondQuestion"
+    android:background="#FFEB3B">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/round_shape_color"
+        android:paddingLeft="18dp"
+        android:paddingBottom="18dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:text="RadioButtons"
+            android:textColor="#F44336"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="radio button 1"
+            android:textColor="#F44336" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="radio button 2"
+            android:textColor="#F44336" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="radio button 3"
+            android:textColor="#F44336" />
+
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/round_shape_color"
+        android:hint="EditText Enter Something"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="#F44336" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:text="Checkbox"
+        android:textSize="20dp"
+        android:textColor="#F44336"/>
+
+    <CheckBox
+        android:id="@+id/chbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:text="Check/Uncheck"
+        android:textColor="#F44336" />
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chbx"
+        android:layout_marginHorizontal="21dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        app:strokeColor="#888383"
+        app:strokeWidth="2dp"
+        android:textColor="#F44336"/>
+
+</RelativeLayout>
